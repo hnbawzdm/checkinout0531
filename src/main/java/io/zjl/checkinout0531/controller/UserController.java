@@ -83,6 +83,8 @@ public class UserController {
         return 1;
     }
 
+
+
     @PostMapping("/check")
     public Integer check(@RequestParam String openid,
                          @RequestParam Byte type) throws WebClientException {
